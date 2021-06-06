@@ -3,8 +3,10 @@
   align-items: center;
   height: 80px;
   background-color: #131921;
-  z-index: -1;
+  z-index: 1;
   position: sticky;
+  top: 0;
+  width: 100%;
   font-family: sans-serif;
 }
 
@@ -15,8 +17,8 @@
   margin-top: 14px;
 }
 
-.location{
-    color: white;
+.location {
+  color: white;
 }
 
 .address {
@@ -26,14 +28,14 @@
   margin: 0 10px;
 }
 
-.add1{
-    font-size: 15px;
+.add1 {
+  font-size: 15px;
 }
 
-.add2{
-    font-size: 18px;
-    font-weight: 800;
-    margin-top: 3px;
+.add2 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 3px;
 }
 
 .searchbox {
