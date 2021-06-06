@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: #131921;
+  z-index: -1;
+  position: sticky;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 120px;
+  display: inline-block;
+  margin: 0 18px;
+  margin-top: 14px;
+}
+
+.location{
+    color: white;
+}
+
+.address {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.add1{
+    font-size: 15px;
+}
+
+.add2{
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 3px;
+}
+
+.searchbox {
+  width: 800px;
+  padding: 8px;
+  margin-left: 5px;
+}
+
+.sicon {
+  background-color: #cd9042;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.icons {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.opt1,
+.opt3,
+.opt5 {
+  font-size: 15px;
+}
+
+.opt2,
+.opt4,
+.opt6 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 3px;
+}
+
+.basket,
+.baskets {
+  color: white;
+  margin-left: auto;
+  padding: 10px;
+}
