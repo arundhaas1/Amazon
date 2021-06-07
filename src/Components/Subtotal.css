@@ -1,0 +1,53 @@
+.total{
+    display: flex;
+    font-size: x-large;
+    margin-bottom: -30px;
+    font-weight: 600;
+}
+
+.gift{
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    width: 20px;
+    height: 100%;
+}
+
+.text{
+    margin-left: 8px;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.commit{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.subtotal{
+    width: 700px;
+    height: 200px;
+    background-color: #f3f3f3;
+    border: 1px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0px 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    letter-spacing: 2px;
+
+}
+
+.proc{
+    background-color: #f0c14b;
+    color: #111;
+    border-color: #a88734 #9c7e31 #846a29;
+    padding: 10px 6px;
+    width: 100%;
+
+}
