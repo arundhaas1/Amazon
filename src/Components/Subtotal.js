@@ -1,12 +1,33 @@
-import React from 'react'
+import React,{useContext,useState, useEffect} from 'react'
 import './Subtotal.css'
+import {StateContext} from './StateProvider'
 
 function Subtotal() {
+    const [{basket},dispatch]=useContext(StateContext)
+    console.log(basket)
+
+    useEffect(()=>{
+        setTotal(reduce)
+    },[basket]);
+
+  
+    const[total,setTotal]=useState(0)
+
+    const sums=basket.map(sum=>{
+        return Number(sum.rate)
+    })
+
+    const reduce = sums.reduce((acc,num)=>{
+        return acc+num
+    },0)     
+
+
+
     return (
         <div className="subtotal">
             <div className="total">
-            <p>Subtotal (0 items):
-                <strong className="count">  0</strong>
+            <p>Subtotal ({basket.length} items):
+                <strong className="count"> {total}</strong>
             </p> 
             </div>
 

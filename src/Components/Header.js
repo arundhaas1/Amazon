@@ -1,11 +1,13 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import {Link} from 'react-router-dom'
+import {StateContext} from './StateProvider'
 
 const Header=()=> {
+    const [{basket},dispatch]=useContext(StateContext)
     return (
         <div className="header">
             <div>
@@ -42,7 +44,7 @@ const Header=()=> {
               <Link to="/checkout">
                   <ShoppingBasketIcon className="basket"/>
               </Link>
-            <span className="counter">0</span>
+            <span className="counter">{basket.length}</span>
             </div>
         </div>
     )
