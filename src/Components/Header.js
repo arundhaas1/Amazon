@@ -42,7 +42,7 @@ const Header=()=> {
             </div>
             <div className="baskets">
               <Link to="/checkout">
-                  <ShoppingBasketIcon className="basket"/>
+                  <ShoppingBasketIcon className="basket grow"/>
               </Link>
             <span className="counter">{basket.length}</span>
             </div>

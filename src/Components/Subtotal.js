@@ -27,7 +27,7 @@ function Subtotal() {
         <div className="subtotal">
             <div className="total">
             <p>Subtotal ({basket.length} items):
-                <strong className="count"> {total}</strong>
+                <strong className="count"> ₹{total}</strong>
             </p> 
             </div>
 
