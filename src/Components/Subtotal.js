@@ -16,7 +16,7 @@ function Subtotal() {
             </p>
             
             <div className="proceed">
-                <button className="proc">
+                <button className="proc grow pointer">
                     <span className="commit">
                     Proceed to Checkout
                     </span>
