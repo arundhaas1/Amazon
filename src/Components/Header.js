@@ -10,7 +10,7 @@ const Header=()=> {
         <div className="header">
             <div>
                 <Link to="/">
-                    <img  className="logo" alt="logo" src="http://pngimg.com/uploads/amazon/amazon_PNG25.png" />
+                    <img  className="logo grow" alt="logo" src="http://pngimg.com/uploads/amazon/amazon_PNG25.png" />
                 </Link>
             </div>
             <LocationOnIcon className="location" />
@@ -22,7 +22,7 @@ const Header=()=> {
                <input className="searchbox" />
                {/* searchLogo */}
             </div>
-            <SearchIcon className="sicon"></SearchIcon>
+            <SearchIcon className="sicon grow"></SearchIcon>
 
             <div className="icons">
                 <div className="icon1">

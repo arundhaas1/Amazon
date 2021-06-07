@@ -1,9 +1,28 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import './Product.css'
+import { StateContext } from './StateProvider'
 
-function Product({info,rate,star,pic}) {
+
+function Product({id,info,rate,star,pic}) {
+
+  const[{basket},dispatch]=useContext(StateContext)
+  console.log("this is ",basket)
+
+    const addToBasket=()=>{
+      dispatch({
+        type:"ADD_TO_BASKET",
+        item:{
+          id:id,
+          info:info,
+          rate:rate,
+          star:star,
+          pic:pic
+        }
+      })
+    }
+
     return (
-        <div className="products grow">
+        <div className="products ">
           <div className="product">
             <div className="infos ">
                 <p className="info tc">{info}</p>
@@ -16,7 +35,7 @@ function Product({info,rate,star,pic}) {
               </div>
 
             <div className="adding">
-                <button className="addto pointer">Add to basket</button>
+                <button onClick={addToBasket} className="addto pointer grow">Add to basket</button>
             </div>
           </div>
         </div>
