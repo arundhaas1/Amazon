@@ -2,3 +2,24 @@
   width: 100%;
   margin-top: 10px;
 }
+
+
+.row1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

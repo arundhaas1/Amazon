@@ -11,31 +11,25 @@ function Home() {
 
             <div className="row">                
                 <div className="row1">
-                    <Product 
-                    info="Panasonic 1.5 Ton 5 Star Wi-Fi Twin Cool Inverter Split AC (Copper, PM 2.5 Filter, 2020 Model, CS/CU-NU18WKYW White)" 
-                    rate="₹48,000"
-                    star="⭐⭐⭐⭐"
-                    pic="https://m.media-amazon.com/images/I/61vern5TkcL._AC_UY218_.jpg"
-                    />
-                    <Product 
+                  
+                    <Product className="p1" 
                         info="Amazon Brand - Symbol,Women's Wrist Watches"
                         rate="₹4,000"
                         star="⭐⭐⭐"
-                        pic="https://m.media-amazon.com/images/I/71Q9N30lE9L._AC_UL320_.jpg"
-                    />
+                        pic="https://m.media-amazon.com/images/I/61utX8kBDlL._AC_UL320_.jpg"
+                    />                    
+                   <Product 
+                        info="IFLASH Men's & Women's UV Protected Classic Aviator Sunglasses (Black & Blue)"
+                        rate="₹288"
+                        star="⭐"
+                        pic="https://m.media-amazon.com/images/I/515gKnUgwpL._AC_UL320_.jpg"
+                   />
                     <Product 
                         info="Heyovin Diamond Crystal Touch Designer High Ball Tumbler Long Drink Glass for Drinking Water, Beer, Soda, Fresh Juice,Cocktail Long Drink Glass 300 ML (2)"
                         rate="₹499"
-                        star="⭐⭐"
-                        pic="https://m.media-amazon.com/images/I/71hWz8VanMS._AC_UL320_.jpg"                    
-                    />
-                    <Product 
-                        info="AmazonBasics 139cm (55 inches) Fire TV Edition 4K Ultra HD Smart LED TV AB55U20PS (Black)"
-                        rate="₹45,000"
                         star="⭐⭐⭐⭐"
-                        pic="https://m.media-amazon.com/images/I/61QLVYZGyFS._AC_UY218_.jpg"    
+                        pic="https://m.media-amazon.com/images/I/71BBc1qwTfL._QL65_AC_UL640_.jpg"                    
                     />
-
                 </div>
 
                 <div className="row2">
@@ -45,33 +39,49 @@ function Home() {
                     star="⭐⭐⭐"
                     pic="https://m.media-amazon.com/images/I/41ivUw9C9PS._AC_UY218_.jpg"
                    />
-                   <Product 
-                   info="IFLASH Men's & Women's UV Protected Classic Aviator Sunglasses (Black & Blue)"
-                   rate="₹288"
-                   star="⭐"
-                   pic="https://m.media-amazon.com/images/I/515gKnUgwpL._AC_UL320_.jpg"
-                   />
+                    <Product 
+                    info="Philips GC181 Heavy Weight 1000-Watt Dry Iron" 
+                    rate="₹48,000"
+                    star="⭐⭐⭐⭐"
+                    pic="https://m.media-amazon.com/images/I/51qNhKjuFPL._AC_UY218_.jpg"
+                    />
+                    <Product 
+                    info="Meditating Sitting Buddha Idols Showpiece For Home Decor - Set of 4 Matki Candles Tealight Diya Decoration Items (9 x 6.5 x 3 Inches)" 
+                    rate="₹4,900"
+                    star="⭐⭐⭐⭐⭐"
+                    pic="https://m.media-amazon.com/images/I/71BHm4xsS-L._AC_UL320_.jpg"
+                    />
                 </div>
 
                 <div className="row3">
                     <Product 
-                      info="Godrej 260 L 3 Star Inverter Frost-Free Double Door Refrigerator (RF EON 260C 35 RCIF ST RH, Steel Rush, 6 in 1 Convertible)"
-                      rate="₹35,000"
+                      info="Art Portfolio Carry Case Bag Backpack, Waterproof 4K Art Tool Carrying Bag Outdoor Sketching Sketchpad Drawing Board Bag, Double Zipper Head"
+                      rate="₹3,998"
                       star="⭐⭐⭐⭐"
-                      pic="https://m.media-amazon.com/images/I/61KnaLNTP-L._AC_UY218_.jpg"
+                      pic="https://m.media-amazon.com/images/I/71oQGQ387tL._AC_UL320_.jpg"
                     />
                     <Product 
-                      info="amsung Galaxy M42 5G (Prism Dot Black, 8GB RAM, 128GB Storage)"
-                      rate="₹11,000"
+                      info="Champions League Club Logos Coloring Book: Top 50 Ranked Teams in Europe 2016/17: This A4 100 page Book has all the Club Logos from the Top 50 ranked ... for you to color. A must for all Soccer fans."
+                      rate="₹999"
                       star="⭐⭐⭐⭐"
-                      pic="https://m.media-amazon.com/images/I/71LweCKOpFL._AC_UY218_.jpg"
+                      pic="https://m.media-amazon.com/images/I/814uZfYOgYL._AC_UL320_.jpg"
                     />
                     <Product 
-                    info="Bourge Women's Micam-z51 Running Shoes"
-                    rate="₹13,777"
-                    star="⭐⭐⭐"
-                    pic="https://m.media-amazon.com/images/I/71Xl7u6FaZL._AC_SX200_SY161_QL70_.jpg"
+                        info="Bourge Women's Micam-z51 Running Shoes"
+                        rate="₹13,777"
+                        star="⭐⭐⭐"
+                        pic="https://m.media-amazon.com/images/I/71Xl7u6FaZL._AC_SX200_SY161_QL70_.jpg"
                     />
+                </div>
+
+                <div className="row4">
+                  <Product 
+                    info="AmazonBasics 139cm (55 inches) Fire TV Edition 4K Ultra HD Smart LED TV AB55U20PS (Black)"
+                    rate="₹45,000"
+                    star="⭐⭐⭐⭐"
+                    pic="https://m.media-amazon.com/images/I/61QLVYZGyFS._AC_UY218_.jpg"    
+                    />
+    
                 </div>
             </div>
 
