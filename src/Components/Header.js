@@ -3,12 +3,15 @@ import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import {Link} from 'react-router-dom'
 
 const Header=()=> {
     return (
         <div className="header">
             <div>
-              <img  className="logo" alt="logo" src="http://pngimg.com/uploads/amazon/amazon_PNG25.png" />
+                <Link to="/">
+                    <img  className="logo" alt="logo" src="http://pngimg.com/uploads/amazon/amazon_PNG25.png" />
+                </Link>
             </div>
             <LocationOnIcon className="location" />
             <div className="address">
@@ -36,7 +39,9 @@ const Header=()=> {
                 </div>
             </div>
             <div className="baskets">
-            <ShoppingBasketIcon className="basket"/>
+              <Link to="/checkout">
+                  <ShoppingBasketIcon className="basket"/>
+              </Link>
             <span className="counter">0</span>
             </div>
         </div>
