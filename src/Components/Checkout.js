@@ -15,6 +15,7 @@ function Checkout() {
                     <img alt="" src="https://m.media-amazon.com/images/G/01/AdProductsWebsite/images/AUX/ILB_BrightColors_Approved.jpg" />
                 </div>
                 <div className="comp">
+             
                 {basket.map(item=>{
                     return (<CheckProduct 
                     id={item.id}

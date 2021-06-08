@@ -14,7 +14,7 @@ function Home() {
                   
                     <Product className="p1" 
                         info="Amazon Brand - Symbol,Women's Wrist Watches"
-                        rate="4,000"
+                        rate="4000"
                         star="⭐⭐⭐"
                         pic="https://m.media-amazon.com/images/I/61utX8kBDlL._AC_UL320_.jpg"
                         id="1"
@@ -38,14 +38,14 @@ function Home() {
                 <div className="row2">
                    <Product 
                     info="(Renewed) Lenovo Thinkpad Laptop X240 Intel Core i5 - 4300u Processor, 8 GB Ram & 128 GB SSD & 500GB HDD, Win10, 12.5 Inches 1.3 KG Ultralight Computer"
-                    rate="63,090"
+                    rate="63090"
                     star="⭐⭐⭐"
                     pic="https://m.media-amazon.com/images/I/41ivUw9C9PS._AC_UY218_.jpg"
                     id="4"
                    />
                     <Product 
                     info="Philips GC181 Heavy Weight 1000-Watt Dry Iron" 
-                    rate="48,000"
+                    rate="48000"
                     star="⭐⭐⭐⭐"
                     pic="https://m.media-amazon.com/images/I/51qNhKjuFPL._AC_UY218_.jpg"
                     id="5"
@@ -62,7 +62,7 @@ function Home() {
                 <div className="row3">
                     <Product 
                       info="Art Portfolio Carry Case Bag Backpack, Waterproof 4K Art Tool Carrying Bag Outdoor Sketching Sketchpad Drawing Board Bag, Double Zipper Head"
-                      rate="3,998"
+                      rate="3998"
                       star="⭐⭐⭐⭐"
                       pic="https://m.media-amazon.com/images/I/71oQGQ387tL._AC_UL320_.jpg"
                       id="7"
@@ -76,7 +76,7 @@ function Home() {
                     />
                     <Product 
                         info="Bourge Women's Micam-z51 Running Shoes"
-                        rate="13,777"
+                        rate="13777"
                         star="⭐⭐⭐"
                         pic="https://m.media-amazon.com/images/I/71Xl7u6FaZL._AC_SX200_SY161_QL70_.jpg"
                         id="9"
@@ -86,7 +86,7 @@ function Home() {
                 <div className="row4">
                   <Product 
                     info="AmazonBasics 139cm (55 inches) Fire TV Edition 4K Ultra HD Smart LED TV AB55U20PS (Black)"
-                    rate="45,000"
+                    rate="45000"
                     star="⭐⭐⭐⭐"
                     pic="https://m.media-amazon.com/images/I/61QLVYZGyFS._AC_UY218_.jpg"    
                     id="10"
