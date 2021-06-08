@@ -5,9 +5,17 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import {Link} from 'react-router-dom'
 import {StateContext} from './StateProvider'
+import { auth } from "./firebase";
 
 const Header=()=> {
-    const [{basket},dispatch]=useContext(StateContext)
+    const [{user,basket},dispatch]=useContext(StateContext)
+    // console.log('my data is',user)
+    const handleUser=()=>{
+        if (user) {
+            auth.signOut()
+        }
+    }
+
     return (
         <div className="header">
             <div>
@@ -27,10 +35,10 @@ const Header=()=> {
             <SearchIcon className="sicon grow"></SearchIcon>
 
             <div className="icons">
-                <Link to="/login" style={{textDecoration : 'none',color:'white'}}>
-                    <div className="icon1" >
-                        <span className="opt1">Hello Quest</span>
-                        <span className="opt2">Sign in</span>
+                <Link to={!user && "/login" } style={{textDecoration : 'none',color:'white'}}>
+                    <div className="icon1" onClick={handleUser}>
+                        <span className="opt1">Welcome</span>
+                        <span className="opt2">{user? 'Sign Out':'Sign In'}</span>
                     </div>
                 </Link>
                 <div className="icon2">

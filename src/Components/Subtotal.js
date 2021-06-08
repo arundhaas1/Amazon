@@ -4,7 +4,6 @@ import {StateContext} from './StateProvider'
 
 function Subtotal() {
     const [{basket},dispatch]=useContext(StateContext)
-    console.log(basket)
 
     useEffect(()=>{
         setTotal(reduce)
