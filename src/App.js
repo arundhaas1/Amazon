@@ -5,6 +5,7 @@ import "tachyons"
 import Home from "./Components/Home.js"
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import Checkout from './Components/Checkout'
+import Login from './Components/Login'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
 
             <Switch>
                 <Route path="/login">
-                  <h1>hlo</h1>
+                  <Login />
                 </Route>
 
                 <Route path="/checkout">
