@@ -52,7 +52,7 @@ function Home() {
                     />
                     <Product 
                     info="Meditating Sitting Buddha Idols Showpiece For Home Decor - Set of 4 Matki Candles Tealight Diya Decoration Items (9 x 6.5 x 3 Inches)" 
-                    rate="4,900"
+                    rate="4900"
                     star="⭐⭐⭐⭐⭐"
                     pic="https://m.media-amazon.com/images/I/71BHm4xsS-L._AC_UL320_.jpg"
                     id="6"

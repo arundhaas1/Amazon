@@ -27,10 +27,12 @@ const Header=()=> {
             <SearchIcon className="sicon grow"></SearchIcon>
 
             <div className="icons">
-                <div className="icon1">
-                    <span className="opt1">Hello Quest</span>
-                    <span className="opt2">Sign in</span>
-                </div>
+                <Link to="/login" style={{textDecoration : 'none',color:'white'}}>
+                    <div className="icon1" >
+                        <span className="opt1">Hello Quest</span>
+                        <span className="opt2">Sign in</span>
+                    </div>
+                </Link>
                 <div className="icon2">
                     <span className="opt3">Returns</span>
                     <span className="opt4">&Orders</span>
