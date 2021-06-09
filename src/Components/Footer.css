@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-bottom: lightgray;
+    
+}
+
+.styles{
+    margin-top: 50px;
+    background-color: #232f3e;
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.row{
+    margin: 0px 30px;
+}
+
+.country{
+    display: flex;
+    background-color: #232f3e;
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    text-decoration: none;
+    justify-content: center;
+    margin: 4px 4px;
+    margin-top: 30px;
+
+}
+
+.country > p{
+    margin: 3px 5px;
+}
+
+.styles >.images >img {
+    height: 40px;
+    width: auto;
+
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
