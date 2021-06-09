@@ -1,0 +1,37 @@
+.payment{
+    background: white;
+    color: #111;
+}
+
+.address{
+    color: #111;
+}
+
+.checkpage{
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color:rgb(234,237,237) ;
+    border-bottom: 1px solid lightgray;
+}
+
+.paymentsection{
+    display: flex;
+    padding: 20px;
+    margin: 0px 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.title{
+    max-width: 30%;
+}
+
+.address{
+    margin-left: 70px;
+    font-weight: 700;
+}
+
+.items{
+    margin-top: 20px;
+    margin-left: 30px;
+}

@@ -1,6 +1,7 @@
 import React,{useContext} from 'react'
 import './CheckProduct.css'
 import { StateContext } from './StateProvider'
+import FlipMove from 'react-flip-move';
 
 function CheckProduct({id,info,rate,star,pic}) {
 
@@ -14,7 +15,8 @@ function CheckProduct({id,info,rate,star,pic}) {
     }
 
     return (
-        <div className="checkProduct">
+       <FlipMove>
+            <div className="checkProduct">
             <div classNmae="picture">
                 <img  className="checkPic"  alt="" src={pic}  height="180" width="300"></img>
             </div>
@@ -28,6 +30,7 @@ function CheckProduct({id,info,rate,star,pic}) {
                 </div>
             </div>
         </div>
+       </FlipMove>
     )
     }       
 

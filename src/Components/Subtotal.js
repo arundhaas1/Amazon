@@ -1,6 +1,7 @@
 import React,{useContext,useState, useEffect} from 'react'
 import './Subtotal.css'
 import {StateContext} from './StateProvider'
+import {Link} from 'react-router-dom'
 
 function Subtotal() {
     const [{basket},dispatch]=useContext(StateContext)
@@ -34,14 +35,15 @@ function Subtotal() {
                 <input className="box " type="checkbox" />
                 <span className="text">This order contains a gift</span>
             </p>
-            
-            <div className="proceed">
-                <button className="proc grow pointer">
-                    <span className="commit">
-                    Proceed to Checkout
-                    </span>
-                </button>
-            </div>
+           <Link to="/Payment">             
+                <div className="proceed">
+                    <button className="proc grow pointer">
+                        <span className="commit">
+                        Proceed to Checkout
+                        </span>
+                    </button>
+                </div>
+           </Link>
         </div>
     )
 }
