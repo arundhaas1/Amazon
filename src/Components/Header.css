@@ -30,12 +30,14 @@
 
 .add1 {
   font-size: 15px;
+  color: white;
 }
 
 .add2 {
   font-size: 18px;
   font-weight: 800;
   margin-top: 3px;
+  color: white;
 }
 
 .searchbox {

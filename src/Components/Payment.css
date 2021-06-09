@@ -26,12 +26,17 @@
     max-width: 30%;
 }
 
-.address{
+.address1{
     margin-left: 70px;
     font-weight: 700;
 }
 
 .items{
     margin-top: 20px;
+    margin-left: 30px;
+}
+
+.method{
+    flex: 0.8;
     margin-left: 30px;
 }

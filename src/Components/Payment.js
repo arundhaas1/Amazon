@@ -1,13 +1,36 @@
-import React,{useContext} from 'react'
+import React,{useContext,useState,useEffect} from 'react'
 import './Payment.css'
 import CheckProduct from './CheckProduct'
 import {StateContext} from './StateProvider'
 import {Link}  from 'react-router-dom' 
+import {useStripe,useElements,CardElement} from '@stripe/react-stripe-js'
+import Subtotal from './Subtotal'
 
 
 function Payment() {
-    const [{user,basket},dispatch]=useContext(StateContext)
-    return (
+    const [{user,basket},dispatch]=useContext(StateContext);
+    const stripe=useStripe();
+    const Elements=useElements();
+
+   
+    const[total,setTotal]=useState(0)
+
+    const sums=basket.map(sum=>{
+        return Number(sum.rate)
+    })
+
+    const reduce = sums.reduce((acc,num)=>{
+        return acc+num
+    },0)  
+    
+    useEffect(()=>{
+        setTotal(reduce)
+    },[basket]);
+
+    
+
+
+    return(
         <div className="payment">
             <div>
                 <Link to='/Checkout' style={{textDecoration:'none',color:'black'}}>
@@ -21,7 +44,7 @@ function Payment() {
                     <div className="tittle">
                         <h2>Delivery Address</h2>
                     </div>
-                    <div className="address">
+                    <div className="address1">
                         <p>{user?.email}</p>
                         <p> 133,Los Angels,</p>
                         <p>United States</p>
@@ -52,8 +75,13 @@ function Payment() {
                     <div className="title">
                         <h2>Payment Method</h2>
                     </div>
-                    <div classname="method">
-
+                    <div className="method">
+                        <form>
+                            <CardElement />
+                            <p>Subtotal ({basket.length} items):
+                               <strong className="count"> ₹{total}</strong>
+                            </p> 
+                        </form>
                     </div>  
                 </div>
             </div>           
