@@ -42,7 +42,7 @@ const Header=()=> {
                     </div>
                 </Link>
                 <div className="icon2">
-                    <span className="opt3">Returns</span>
+                    <span className="opt3">Retuns</span>
                     <span className="opt4">&Orders</span>
                 </div>
                 <div className="icon3">
