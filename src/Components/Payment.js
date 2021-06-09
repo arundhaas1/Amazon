@@ -77,10 +77,16 @@ function Payment() {
                     </div>
                     <div className="method">
                         <form>
-                            <CardElement />
-                            <p>Subtotal ({basket.length} items):
+                            <div className="carddetail">
+                                <CardElement className="card"/>
+                            </div>
+
+                            <h3>Subtotal ({basket.length} items):
                                <strong className="count"> ₹{total}</strong>
-                            </p> 
+                            </h3> 
+                            <Link to ="/Thanks">
+                              <button className="grow butt">Proceed Payment</button>
+                            </Link>
                         </form>
                     </div>  
                 </div>
