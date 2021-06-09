@@ -47,7 +47,7 @@ const Header=()=> {
                 </div>
                 <div className="icon3">
                     <span className="opt5">Your</span>
-                    <span className="opt6">Prime</span>
+                    <span className="opt6">Pr</span>
                 </div>
             </div>
             <div className="baskets">
