@@ -1,1 +1,2 @@
-Zoom out in browser of 75% for better experience
+!!! ZOOM OUT FOR 75% FOR BETTER EXPERIENCE !!!
+
