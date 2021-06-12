@@ -15,7 +15,7 @@ function Home() {
                     <Product className="p1" 
                         info="Amazon Brand - Symbol,Women's Wrist Watches"
                         rate="4000"
-                        star="⭐⭐⭐"
+                        star="⭐⭐⭐⭐"
                         pic="https://m.media-amazon.com/images/I/61utX8kBDlL._AC_UL320_.jpg"
                         id="1"
                     />                    
