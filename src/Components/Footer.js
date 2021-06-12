@@ -35,7 +35,7 @@ function Footer() {
                     <p>Sell under Amazon Accelerator</p> 
                     <p>Become an Affilate</p> 
                     <p>Advertise Your product</p>
-                    <p>Fulfilment Your Product</p>
+                    <p>Fulfillment Your Product</p>
                     <p>Amazon Pay on Merchants</p>
 
                 </div>
