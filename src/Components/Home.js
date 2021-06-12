@@ -22,7 +22,7 @@ function Home() {
                    <Product 
                         info="IFLASH Men's & Women's UV Protected Classic Aviator Sunglasses (Black & Blue)"
                         rate="288"
-                        star="⭐"
+                        star="⭐⭐⭐"
                         pic="https://m.media-amazon.com/images/I/515gKnUgwpL._AC_UL320_.jpg"
                         id="2"
                    />
